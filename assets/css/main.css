@@ -2693,28 +2693,36 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-			.tiles article.style1 > .image:before {
+			.tiles article.style1 > .image:before { // red
 				background-color: #f2849e;
 			}
 
-			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+			.tiles article.style2 > .image:before { // orange
+				background-color:#ffba4c
 			}
 
-			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+			.tiles article.style3 > .image:before { // yellow
+				background-color: #f4f19a;
 			}
 
-			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+			.tiles article.style4 > .image:before { // green
+				background-color: #b9f280
 			}
 
-			.tiles article.style5 > .image:before {
+			.tiles article.style5 > .image:before { // blue
+				background-color: #1e60ed;
+			}
+
+			.tiles article.style6 > .image:before { // purple
 				background-color: #ae85ca;
 			}
 
-			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+			.tiles article.style7 > .image:before { // pink
+				background-color: #f276c0;
+			}
+				
+			.tiles article.style8 > .image:before { // light blue
+				background-color: #7ecaf6;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
