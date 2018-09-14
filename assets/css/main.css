@@ -116,7 +116,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #1e1d1d;
+		color: #585858;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -195,7 +195,7 @@ input, select, textarea {
 
 		}
 
-	h2, h6 {
+	h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
@@ -208,32 +208,23 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.1em;
 	}
 
 	h3 {
-		font-size: 1.5em;
-		font-family: cursive;
-		margin: 0 0 2em 0;
+		font-size: 1em;
 	}
 
 	h4 {
-		font-size: 1.0em;
-		font-family: fantasy;
-		margin: 0 0 0 0;
-		text-transform: uppercase;
-		letter-spacing: 0.2em;
+		font-size: 0.8em;
 	}
 
 	h5 {
-		font-size: 2.5em;
-		font-family: impact;
-		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		font-size: 0.8em;
 	}
 
 	h6 {
-		font-size: 0.9em;
+		font-size: 0.8em;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -2693,36 +2684,28 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-			.tiles article.style1 > .image:before { // red
+			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
 			}
 
-			.tiles article.style2 > .image:before { // orange
-				background-color:#ffba4c
+			.tiles article.style2 > .image:before {
+				background-color: #7ecaf6;
 			}
 
-			.tiles article.style3 > .image:before { // yellow
-				background-color: #f4f19a;
+			.tiles article.style3 > .image:before {
+				background-color: #7bd0c1;
 			}
 
-			.tiles article.style4 > .image:before { // green
-				background-color: #b9f280
+			.tiles article.style4 > .image:before {
+				background-color: #c75b9b;
 			}
 
-			.tiles article.style5 > .image:before { // blue
-				background-color: #1e60ed;
-			}
-
-			.tiles article.style6 > .image:before { // purple
+			.tiles article.style5 > .image:before {
 				background-color: #ae85ca;
 			}
 
-			.tiles article.style7 > .image:before { // pink
-				background-color: #f276c0;
-			}
-				
-			.tiles article.style8 > .image:before { // light blue
-				background-color: #7ecaf6;
+			.tiles article.style6 > .image:before {
+				background-color: #8499e7;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2825,7 +2808,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 3em 0 0.1em 0 ;
+		padding: 8em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2833,7 +2816,7 @@ input, select, textarea {
 			border-bottom: 0;
 			color: inherit;
 			font-weight: 900;
-			letter-spacing: 0.2em;
+			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -2846,13 +2829,13 @@ input, select, textarea {
 			}
 
 			#header .logo .symbol {
-				margin-right: 0.3em;
+				margin-right: 0.65em;
 			}
 
 				#header .logo .symbol img {
 					display: block;
-					width: 7em;
-					height: 7em;
+					width: 2em;
+					height: 2em;
 				}
 
 		#header nav {
