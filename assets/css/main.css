@@ -220,7 +220,8 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 1em;
+		font-family: georgia;
+		font-size: 1.5em;
 	}
 
 	h6 {
