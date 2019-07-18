@@ -2802,7 +2802,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: calc(33.3333333333% - 1.25em);
+					width: calc(25% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 			.alumtable {
@@ -2821,8 +2821,15 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: calc(50% - 2.5em);
+					width: calc(25% - 2.5em);
 					margin: 2.5em 0 0 2.5em;
+				}
+			.alumtable {
+				margin: -1.25em 0 0 -1.25 em;
+			}
+				.alumtable article {
+					width: calc(20% - 1.25em);
+					margin: 1.25em 0 0 1.25em;
 				}
 
 		}
@@ -2834,7 +2841,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: calc(50% - 1.25em);
+					width: calc(33.3333% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
@@ -2844,7 +2851,13 @@ input, select, textarea {
 						-ms-transform: scale(1.0);
 						transform: scale(1.0);
 					}
-
+				.alumtable {
+					margin: -1.25em 0 0 -1.25 em;
+				}
+					.alumtable article {
+						width: calc(25% - 1.25em);
+						margin: 1.25em 0 0 1.25em;
+					}
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2854,7 +2867,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: 100%;
+					width: 50%;
 					margin: 1.25em 0 0 0;
 				}
 
