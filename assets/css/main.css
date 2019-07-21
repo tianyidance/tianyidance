@@ -2910,8 +2910,12 @@ input, select, textarea {
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 10em;
+					height: 10em;
+				}
+
+				#header .logo .title {
+					font-size:2em;
 				}
 
 		#header nav {
@@ -3000,7 +3004,33 @@ input, select, textarea {
 							opacity: 0;
 						}
 
+		@media screen and (max-width: 1280px) {
+			#header .logo {
+				display: block;
+				border-bottom: 0;
+				color: inherit;
+				font-weight: 900;
+				letter-spacing: 0.35em;
+				margin: 0 0 2.5em 0;
+				text-decoration: none;
+				text-transform: uppercase;
+				display: inline-block;
+			}
+		}
+
 		@media screen and (max-width: 736px) {
+
+			/* #header .logo .symbol img {
+				display: block;
+				width: calc(75%);
+				height: calc(75%);
+				max-width: 10em;
+				max-height: 10em;
+			}
+
+			#header .logo .title {
+				font-size:calc(125%);
+			} */
 
 			#header {
 				padding: 4em 0 0.1em 0 ;
@@ -3281,10 +3311,6 @@ input, select, textarea {
 					}
 
 		@media screen and (max-width: 1280px) {
-
-			#footer {
-				padding: 5em 0 3em 0 ;
-			}
 
 				#footer > .inner section:nth-child(1) {
 					width: calc(66% - 1.25em);
