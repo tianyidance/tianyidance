@@ -3408,3 +3408,8 @@ input, select, textarea {
 			}
 
 		}
+
+	.alert {
+		background-color: #D3D3D3;
+		padding: 10px;
+	}
